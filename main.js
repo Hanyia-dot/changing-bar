@@ -15,7 +15,7 @@ strap.style.height = size + "px"
 strap.style.backgroundColor = "green";
 
 const changedHeight = () => {
-    
+
     if (size >= maxHeight ){
         grow = !grow;
     }
@@ -23,7 +23,6 @@ const changedHeight = () => {
     else if (size == 0) {
         grow = !grow;
     }
-
 
     if (grow) {
         size += 5;
@@ -36,8 +35,6 @@ const changedHeight = () => {
         strap.style.backgroundColor = "red";
     }    
     
-
-
 }
 
 
